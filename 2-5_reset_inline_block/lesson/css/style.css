@@ -1,0 +1,38 @@
+
+@import url('normalize.css');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.wrapper{
+    background-color: aliceblue;
+    padding: 50PX 0;
+    
+}
+
+.wrapper h1{
+    text-align: center;
+}
+
+.wrapper ul{}
+
+.wrapper li{}
+
+.wrapper img{}
+
+.wrapper h2{}
+
+.wrapper p{}
+
+
+
+
+
+
+
+
+
+
+

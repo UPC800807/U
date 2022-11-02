@@ -1,0 +1,53 @@
+
+body{
+  padding: 20px;
+  font-family: Heiti TC, Microsoft JhengHei, Arial;
+  background-color: #ccc;
+}
+
+h1{
+  font-size: 48px;
+  text-align: center;
+}
+
+p{
+  line-height: 1.6;
+}
+
+/*---------- 螢幕小於 1200 時 ----------*/
+@media screen and (max-width:1200px) {
+
+  body{
+    background-color: rgb(141, 45, 45);
+  }
+    
+}
+
+/*---------- 螢幕小於 800 時 ----------*/
+@media screen and (max-width:800px) {
+
+  body{
+    background-color: rgb(69, 45, 141);
+  }
+    
+}
+
+
+/*---------- 螢幕小於 600 時 ----------*/
+@media screen and (max-width:600px) {
+
+  body{
+    background-color: rgb(45, 141, 96);
+  }
+    
+}
+
+
+
+
+
+
+
+
+
+

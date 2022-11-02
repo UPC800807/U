@@ -1,0 +1,104 @@
+@import url("reset.css");
+
+body{
+    font-family: Arial;
+    /* line-height 自行寬度 父層繼承子層文字 */
+    line-height: 1.6;
+    background-color: #e5e5e5;
+}
+
+.top{
+    background-color: #fff;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    /* position: fixed; 固定底圖位子 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* 視窗大小寬度 <符合視窗尺寸不變> */
+    width: 100%;
+    /* z-index 讓標題在最上層 底圖不會向上 */
+    z-index: 1;
+}
+
+.top img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* 上圖 標 結束 */
+
+.yellow{
+
+    background-image: url(../img/template.jpg);
+    width: 1200px;
+    height: 3475px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* 給予背景+尺寸固定位子 */
+}
+
+.A{
+    height: 690px;
+    position: relative;
+    
+    /* ul位子給予相對位子position: relative; */
+}
+
+.A li{
+    position: absolute;
+    width: 350px;
+    height: 303px;
+    /*  li位子給予絕對位子position: absolute;圖層可移動  */
+}
+
+.A .one{
+    background-image: url(../img/item1.png);
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+}
+
+.A .two{
+
+    background-image: url(../img/item2.png);
+    left: 150px;
+    top: 270px;
+}
+
+.A .three{
+
+    background-image: url(../img/item3.png);
+    right: 150px;
+    top: 270px;
+}
+
+p{
+
+    text-align: center;
+  padding: 180px 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

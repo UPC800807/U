@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+	padding: 0;
+}
+
+body{
+    background-image: url(html_bg.png);
+    padding-top: 50px;
+	font-family: Arial, '微軟正黑體';
+}
+
+.out{
+    background-image: url(main_bg.png);
+    width: 800px;
+    height: 760px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 30px;
+;
+    box-sizing: border-box;
+
+}
+
+.one1{
+    background-image: url(banner1.png);
+    width: 700px;
+    height: 200px;
+    margin: 20px;
+  
+
+   
+   
+}
+
+.one2{
+    background-image: url(banner2.png);
+    width: 700px;
+    height: 200px;
+    margin: 20px;
+  
+}
+
+.one3{
+    background-image: url(banner3.png);
+    width: 700px;
+    height: 200px;
+    margin: 20px;
+  
+    
+}
+
+
+
+.one1 h2{
+	font-size: 38px;
+	color: #f19ec2;
+	padding-left: 20px;
+	padding-top: 50px;
+}
+
+.one1 p{
+	padding-left: 20px;
+	color: #f19ec2;
+}
+
+.one2 h2{
+	font-size: 42px;
+	text-align: right;
+	padding-top: 50px;
+	padding-right: 20px;
+	color: darkgreen;
+}
+
+.one2 p{
+	text-align: right;
+	color: darkgreen;
+	padding-right: 20px;
+}
+
+.one3 h2{
+	font-size: 38px;
+	text-align: center;
+	padding-top: 60px;
+	color: lightblue;
+}
+
+.one3 p{
+	text-align: center;
+	color: lightblue;
+}
+
+
+
+
+

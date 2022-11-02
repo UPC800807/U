@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top:60px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(html_bg.png);
+}
+
+#out{
+    background-image: url(main_bg.png);
+    width: 800px;
+    height: 760px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.banner1{
+    background-image: url(banner1.png);
+    width: 700px;
+}
+
+.banner2{}
+
+.banner3{}
+
+.banner1 h2{}
+
+.banner1 p{}
+
+.banner2 h2{}
+
+.banner2 p{}
+
+.banner3 h2{}
+
+.banner3 p{}

@@ -1,0 +1,61 @@
+@import url("reset.css");
+
+body{
+    background-color: dimgrey;
+
+}
+
+.h{
+    background-image: url(../img/main_bg.jpg);
+    width: 1200px;
+    height: 675px;
+    margin: 0 auto;
+    position: relative;
+
+
+}   
+
+.h img{
+    position: absolute;
+}
+
+.h .one{
+    left: 0px;
+    top: 0px;
+}
+
+.h .two{
+    left: 0px;
+    top: 0px;
+}
+
+.h .three{
+    left:0 px;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

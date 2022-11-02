@@ -1,0 +1,81 @@
+@import url("reset.css");
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    /* line-height行句高 */
+    padding-top: 100px;
+    /* 上面推下來100px的寬度 */
+}
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    /* 圖板主要圖 */
+    width: 1200px;
+    height: 460px;
+    margin: 0 auto;
+    /* 主圖置中 */
+}
+
+.banner ul{
+    width: 600px;
+    padding: 30px;
+    /* 先推中間圖檔位子的左側 <給予UL高寬 被DIV去包住>*/
+}
+
+.banner li{
+    float: left;
+    /* 給予 <li> float漂浮 left往右推移 */
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.banner a{
+    display: block;
+    /* 可以img圖內的底線框往回縮 才能推移內裡圖層 */
+    width: 150px;
+    height: 150px;
+  
+    position: relative;
+    /* 座標 相對 父 */
+}
+
+.banner img{
+    position: absolute;
+    /* 座標 絕對 子 */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* 讓img 圖檔置中 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

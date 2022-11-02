@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("html_bg.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+/* =========================================*/
+.out{
+    /* background-color: rgb(255, 255, 255); */
+    border: 4px solid rgb(250, 250, 250);
+    width: 1000px;
+    margin: 0 auto;
+    /* color:black; */
+   
+    
+    /* text-align: left; */
+    
+}
+
+
+ul{
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    /* text-align: left; */
+}
+
+li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width:100px;
+    font-size: 18px;
+    text-align: center;
+   
+    /* height: 40px;
+       line-height: 40px;  在格子內就能夠置中*/
+    /* padding: 0 20px;
+    line-height: 40px;  寬度沒有寫死左右還是能伸縮*/
+    
+}
+
+/* =================================== */
+.big{
+    background-image: url("main_bg.jpg");
+    height: 600px;
+
+    clear: both;
+    /* clear: both;清除浮動 */
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}

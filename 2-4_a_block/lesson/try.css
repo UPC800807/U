@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------top右------------- */
+.top{
+    background-image: url(main_bg.jpg);
+	height: 500px;
+}
+
+.top_right{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.top_right img{
+    width: 450px;
+    float: right;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+/* ------------top左------------- */
+
+.top_left{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.top_left h1{
+    font-size: 58px;
+    color: white;
+    padding-top: 70px;
+}
+
+.top_left p{   
+    font-size: 18px;
+    color: rgb(13, 12, 12);
+    margin-top: 20px;
+}
+
+.top_left a{
+    font-size: 14px;
+    color: rgb(13, 12, 12);
+    text-decoration:none; 
+    background-color: rgb(190, 211, 69);
+    display: block;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    font-weight:bold ;
+    
+
+}
+
+.top_left a:hover{
+    color: blue;
+
+}

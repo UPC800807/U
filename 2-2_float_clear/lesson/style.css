@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Verdana;
+    padding-top: 100px;
+    background-image: url(html_bg.jpg);
+}
+
+.hi{
+    width: 1000px;
+    border: 5px sandybrown;
+    margin: 0auto;
+}
+
+ul{
+    list-style:none;
+    background-color: azure;
+    overflow:hidden;
+
+}
+
+li{
+    float:left;
+    line-height: 40px;
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+.hihi{
+    clear: both;
+    background-image: url(main_bg.jpg);
+    height: 600px;
+}
+
+h1{
+    
+}
+
+h2{}
+
+P{}
+
+
+
+
+
+
+
+
+
+
